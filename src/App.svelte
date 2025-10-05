@@ -1,6 +1,6 @@
 <main>
   <article class="qrCard">
-    <img src="/images/image-qr-code.png" alt="QR code">
+    <img src="./images/image-qr-code.png" alt="QR code">
     <h1>Improve your front-end skills by building projects</h1>
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </article>
@@ -23,9 +23,9 @@
     padding: 1em;
     border-radius: 20px;
     background-color: white;
-    max-width: 275px;
+    max-width: 280px;
     text-align: center;
-    
+    box-shadow: 0px 25px 35px rgba(0,0,0,0.08);
   }
 
   .qrCard img{
@@ -35,10 +35,12 @@
 
   .qrCard h1{
     font-size: 1.4em;
+    color:  hsl(216, 15%, 32%); 
   }
 
   .qrCard p{
     color: hsl(216, 15%, 48%);
+    line-height: 1.4em;
   }
 
   .qrCard p, .qrCard h1{
