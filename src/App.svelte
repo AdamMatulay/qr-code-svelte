@@ -20,22 +20,24 @@
   }
 
   .qrCard{
-    padding: 1em;
     border-radius: 20px;
     background-color: white;
-    max-width: 280px;
+    max-width: 285px;
+    min-height: 460px;
     text-align: center;
     box-shadow: 0px 25px 35px rgba(0,0,0,0.08);
+    padding: 1em;
   }
 
   .qrCard img{
     max-width: 100%;
     border-radius: 10px;
+    
   }
 
   .qrCard h1{
     font-size: 1.4em;
-    color:  hsl(216, 15%, 32%); 
+    color:  hsl(217, 16%, 22%); 
   }
 
   .qrCard p{
